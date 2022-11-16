@@ -6,7 +6,7 @@ export const Homepage = () => {
   return (
     <div className="home-container">
       <nav>
-        <img src={logo} alt="logo"/>
+        <img src={logo} alt="logo" className="logo"/>
         <button className="menu-btn">Menú</button>
       </nav>
       <section className="buttons-container">
