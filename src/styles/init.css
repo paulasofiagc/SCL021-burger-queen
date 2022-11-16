@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya&display=swap");
 .home-container {
   align-items: center;
   background-image: url("/src/img/home-inicio.jpg");
@@ -8,16 +9,6 @@
   height: 100%;
   width: 100%;
   justify-content: center;
-}
-.buttons-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 40px;
-  width: 600px;
-  height: 316px;
 }
 nav {
   position: absolute;
@@ -33,28 +24,64 @@ img {
   height: 100px;
   width: 300px;
 }
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  width: 50vw;
+  height: 50vh;
+  margin-top: 5vh;
+}
 .menu-btn {
-  font-family: "Poppins", sans-serif;
+  font-family: "Noto Serif Oriya", serif;
   background: #fd691f;
   border-radius: 40px;
   color: #ffffff;
   border: 1px solid #e1e1e1;
-  line-height: 50px;
-  width: 103px;
-  height: 50px;
+  width: 15vw;
+  height: 10vh;
   margin-right: 30px;
+  font-style: normal;
+  font-size: 2vw;
 }
 .orderBtn {
   background: #9fbf2c;
   border-radius: 45px;
-  margin-top: 15vh;
+  margin-top: 7vh;
   width: 30vw;
-  height: 10vh;
+  height: 15vh;
+  font-family: "Noto Serif Oriya", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 65px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .kitchenBtn {
   background: #a63838;
   border-radius: 45px;
-  margin-bottom: 12vh;
+  margin-bottom: 7vh;
   width: 30vw;
-  height: 10vh;
+  height: 15vh;
+  font-family: "Noto Serif Oriya", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 65px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.burger-inicio {
+  width: 70px;
+  height: 70px;
 }
