@@ -1,3 +1,3 @@
 export const KitchenOrders = () => {
-  return <h1>Aquí va la cocina</h1>;
+  return <h1>Esta es la cocinita</h1>;
 };

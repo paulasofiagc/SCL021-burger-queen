@@ -5,28 +5,28 @@
         "name": "American coffee",
         "description": "An exquisite softer espresso with chocolate and vanilla notes.",
         "price": 5.00,
-        "image": "/assets/cafenegro.png"
+        "image": "public/img/cafe-americano.png"
       },
       {
         "id": 2,
         "name": "Coffee with milk",
         "description": "An exquisite latte with hints of chocolate and vanilla notes.",
         "price": 7.00,
-        "image":"/assets/cafenegro.png"
+        "image":"/img/Cafeconleche.png"
       },
       {
         "id": 3,
         "name": "Ham and cheese sandwich",
         "description": "A delicious freshly baked bread, with goat cheese and turkey ham.",
         "price": 10.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/jamonyqueso.png"
       },
       {
         "id": 4,
         "name": "Natural fruit juice",
         "description": "Delicious fresh juice made with mineral water.",
         "price": 7.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/jugo-natural.png"
       }
     ],
   
@@ -36,70 +36,70 @@
         "name": "Simple burger",
         "description": "Hamburger of your choice with lettuce, onion, cheese and tomato.",
         "price": 10.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/burger-simple.png"
       },
       {
         "id": 2,
         "name": "Double burger",
         "description": "Hamburger of your choice with lettuce, onion, cheese and tomato.",
         "price": 15.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/burger-doble.png"
       },
       {
         "id": 3,
         "name": "French fries",
         "description": "Delicious natural fries with homemade mayonnaise and house sauce.",
         "price": 5.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/papasfritas.png"
       },
       {
         "id": 4,
         "name": "Onion rings",
         "description": "Natural onion rings with barbecue sauce.",
         "price": 5.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/aros-cebolla.png"
       },
       {
         "id": 5,
         "name": "Extra egg",
         "description": "Huevo frito",
         "price": 1.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/huevo-frito.png"
       },
       {
         "id": 6,
         "name": "Extra cheese",
         "description": "Additional cheddar cheese",
         "price": 1.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/queso-rallado.png"
       },
       {
         "id": 7,
-        "name": "Agua 500ml",
+        "name": "Water 500ml",
         "description": "Mineral water without gas 500ml",
         "price": 5.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/agua-mineral.png"
       },
       {
         "id": 8,
         "name":"Water 750ml",
         "description": "Mineral water without gas 750ml",
         "price": 7.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/agua-mineral.png"
       },
       {
         "id": 9,
         "name": "Soft drink 500ml",
         "description": "Different flavors of soft drinks.",
         "price": 5.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/bebida.png"
       },
       {
         "id": 10,
         "name": "Soft drink 750ml",
         "description": "Different flavors of soft drinks.",
         "price": 7.00,
-        "image": "/assets/cafenegro.png"
+        "image": "/img/bebida.png"
       }
     ]
   }

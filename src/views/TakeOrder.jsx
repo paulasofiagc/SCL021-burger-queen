@@ -1,3 +1,3 @@
 export const TakeOrder = () => {
-  return <h1>Aquí van los que toman pedidos</h1>;
+  return <h1>Estos son los pedidos de la gente</h1>;
 };
