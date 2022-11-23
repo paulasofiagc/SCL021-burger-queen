@@ -50,47 +50,58 @@ nav {
 }
 .orderBtn {
   background: #9fbf2c;
-  border-radius: 45px;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+  border-radius: 45px;
   margin-top: 7vh;
   width: 30vw;
   height: 15vh;
+  border: 1px solid transparent;
+}
+.orderBtn a {
+  text-decoration: none;
   font-family: "Noto Serif Oriya", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.5vw;
   color: #ffffff;
-  border: 1px solid transparent;
+  order: -1;
 }
 .kitchenBtn {
   background: #a63838;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row-reverse;
   border-radius: 45px;
   margin-bottom: 7vh;
   width: 30vw;
   height: 15vh;
+  border: 1px solid transparent;
+}
+.kitchenBtn a{
+  text-decoration: none;
   font-family: "Noto Serif Oriya", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.5vw;
   color: #ffffff;
-  border: 1px solid transparent;
 }
 .burger-inicio {
   width: 5vw;
   height: 13vh;
 }
-
+.kitchenBtn a {
+  text-decoration: none;
+}
 @media (max-width: 600px) {
   .logo {
     height: 80px;
     width: 170px;
   }
-  .burger-inicio{
-    display:none !important;
+  .burger-inicio {
+    display: none !important;
   }
 }
