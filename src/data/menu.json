@@ -72,34 +72,37 @@
         "description": "Additional cheddar cheese",
         "price": 1.00,
         "image": "../img/queso-rallado.png"
-      },
+      }
+    ], 
+    "Bebidas":[
       {
-        "id": 7,
+        "id": 1,
         "name": "Water 500ml",
         "description": "Mineral water without gas 500ml",
         "price": 5.00,
         "image": "../img/agua-mineral.png"
       },
       {
-        "id": 8,
+        "id": 2,
         "name":"Water 750ml",
         "description": "Mineral water without gas 750ml",
         "price": 7.00,
         "image": "../img/agua-mineral.png"
       },
       {
-        "id": 9,
+        "id": 3,
         "name": "Soft drink 500ml",
         "description": "Different flavors of soft drinks.",
         "price": 5.00,
         "image": "../img/bebida.png"
       },
       {
-        "id": 10,
+        "id": 4,
         "name": "Soft drink 750ml",
         "description": "Different flavors of soft drinks.",
         "price": 7.00,
         "image": "../img/bebida.png"
       }
     ]
+
   }

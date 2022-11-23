@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 /* TODO LO DE NAV EN LA VIEW */
+#root{
+  height: 100%;
+  width: 100%;
+}
 #orderContainer {
   background-color: #e8e8e8;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-
 }
 #navContainer {
   margin-top: 0;
@@ -61,7 +64,7 @@
   display: flex;
   background-color: white;
 }
-img {
+.img img {
   height: 4rem;
   width: 12rem;
 }
@@ -122,7 +125,7 @@ img {
   font-style: normal;
   font-weight: 800;
   font-size: 12px;
-  line-height: 40px;
+  line-height: 37px;
   width: 40px;
 }
 .view-more {
@@ -179,9 +182,9 @@ img {
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
   margin-left: 2%;
 }
-#tableSelect{
-  width:30px;
-  border:#d9d9d9;
+#tableSelect {
+  width: 30px;
+  border: #d9d9d9;
   background-color: #d9d9d9;
   margin-right: 2%;
   height: 3.5rem;
@@ -190,12 +193,97 @@ img {
   font-style: normal;
   font-weight: 500;
 }
-.card-counter{
-  height: 100%;
-  width:100%;
+/*Tarjeta y carro de compra */
+.card-counter {
   display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+.cardContainer {
+  width: 100%;
+}
+#name-menu {
+  display: flex;
+  justify-content: center;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 34px;
+  color: #000000;
 }
 
+.item-counter {
+  flex-basis: 28.5%;
+  background-color: white;
+}
+#justCardProducts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 70%;
+}
+.product-card {
+  width: 10rem;
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 2rem 2.6rem 1.5em 1.3rem;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.07);
+  border: transparent;
+}
+#product-image {
+  width: 9rem;
+  display: flex;
+  justify-content: center;
+}
+#product-image img {
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+#product-information {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+#product-information h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+#product-information p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7a7a7a;
+}
+#product-information h3 {
+  display: flex;
+}
+.total-card {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#weight-sign{
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 1.2rem;
+color: #1D2186;
+}
+#price{
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size:2rem;
+  color: #000000;
+}
 @media (max-width: 480px) {
   #welcome {
     font-size: 1.2rem;

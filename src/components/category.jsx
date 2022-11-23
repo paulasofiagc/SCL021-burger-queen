@@ -1,7 +1,7 @@
 import "../styles/takeOrder.css";
 import desayuno from "../img/Cafe_nuevo.png";
-import almuerzo from "../img/lunch.png";
-import cena from "../img/Cena.png";
+import almuerzo from "../img/Lunch1.png";
+import cena from "../img/Tomar.png";
 const viewMore = "View more >";
 
 export const Category = () => {
@@ -12,7 +12,12 @@ export const Category = () => {
         <section className="optionContainer">
           <div className="buttonContainer">
             <div id="name-option">
-              <button className="menu-btn">
+              <button
+                className="menu-btn"
+                onClick={() => {
+                  alert("Veamos si muestras el desayuno🥰");
+                }}
+              >
                 <img
                   className="breakfast-photo"
                   src={desayuno}
@@ -22,7 +27,12 @@ export const Category = () => {
               <p className="name-menu">Breakfast</p>
             </div>
             <div id="name-option">
-              <button className="menu-btn">
+              <button
+                className="menu-btn"
+                onClick={() => {
+                  alert("Veamos si muestras el almuerzo🥰");
+                }}
+              >
                 <img
                   className="breakfast-photo"
                   src={almuerzo}
@@ -35,7 +45,7 @@ export const Category = () => {
               <button className="menu-btn">
                 <img className="breakfast-photo" src={cena} alt="desayuno" />
               </button>
-              <p className="name-menu">Dinner</p>
+              <p className="name-menu">Drink</p>
             </div>
           </div>
         </section>

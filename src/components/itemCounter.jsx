@@ -1,7 +1,9 @@
 import "../styles/takeOrder.css";
 
 export const ItemCounter = () => {
-  <div id="item-counter">
-    <h1>hola</h1>
-  </div>;
+  return (
+    <div className="item-counter">
+      <h1>Aquí va la cuenta</h1>
+    </div>
+  );
 };

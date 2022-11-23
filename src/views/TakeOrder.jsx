@@ -1,9 +1,10 @@
 import { Card } from "../components/card";
 import { Category } from "../components/category";
-import { ItemCounter} from "../components/itemCounter";
-import {  TableNumber } from "../components/selectTable";
+import { TableNumber } from "../components/selectTable";
 import { Nav } from "../components/nav";
 import "../styles/takeOrder.css";
+import { ItemCounter } from "../components/itemCounter";
+import menu from "../data/menu.json";
 
 export const TakeOrder = () => {
   return (
@@ -16,7 +17,17 @@ export const TakeOrder = () => {
         <TableNumber />
       </div>
       <div className="card-counter">
-        <Card />
+        <div id="justCardProducts">
+          {menu.Desayuno.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
+          {menu.Almuerzo.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
+          {menu.Bebidas.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
+        </div>
         <ItemCounter />
       </div>
     </div>
