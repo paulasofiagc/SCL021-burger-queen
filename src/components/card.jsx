@@ -1,4 +1,5 @@
 import "../styles/takeOrder.css";
+
 export const Card = ({ item }) => {
   const { name, price, description, image } = item;
   return (
@@ -20,7 +21,7 @@ export const Card = ({ item }) => {
 export const CardLunch = ({ item }) => {
   const { name, price, description, image } = item;
   return (
-    <div className="product-card">
+    <section className="product-card">
       <div id="product-image">
         <img src={image} alt="comida-foto" />
       </div>
@@ -32,11 +33,14 @@ export const CardLunch = ({ item }) => {
           <h3 id="price">{price}</h3>
         </div>
       </div>
-      <div className="choose-protein">
-        <button class="btn-protein">Meat</button>
-		<button class="btn-protein">Chicken</button>
-		<button class="btn-protein">Vegan</button>
-      </div>
-    </div>
+      <article id="name-protein">
+        <h5 className="choose-protein">Choose the protein</h5>
+      <select className="select-protein">
+        <option class="btn-protein">Meat</option>
+        <option class="btn-protein">Chicken</option>
+        <option class="btn-protein">Vegan</option>
+      </select>
+      </article>
+    </section>
   );
 };

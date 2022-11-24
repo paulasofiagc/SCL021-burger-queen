@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 /* TODO LO DE NAV EN LA VIEW */
-#root{
+#root {
   height: 100%;
   width: 100%;
 }
@@ -270,19 +270,119 @@
   justify-content: end;
   align-items: center;
 }
-#weight-sign{
-  font-family: 'Arial';
-font-style: normal;
-font-weight: 700;
-font-size: 1.2rem;
-color: #1D2186;
-}
-#price{
+#weight-sign {
   font-family: "Arial";
   font-style: normal;
   font-weight: 700;
-  font-size:2rem;
+  font-size: 1.2rem;
+  color: #1d2186;
+}
+#price {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
   color: #000000;
+}
+#name-protein {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Poppins";
+  border-radius: 15px;
+}
+.select-protein {
+  font-family: "Poppins";
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  margin-left: 3%;
+  border-radius: 10px;
+  width: 80%;
+  margin-bottom: 0.5rem;
+}
+.choose-protein {
+  margin-left: 5%;
+}
+.exit {
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  border: transparent;
+  justify-content: center;
+  width: 30%;
+  margin: 0.5rem;
+}
+.exit a {
+  font-family: "Arial";
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0.5rem;
+  text-decoration: none;
+}
+.price-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.information-order {
+  display: flex;
+  align-items: baseline;
+}
+#total {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #3a3e8f;
+}
+#price {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #222222;
+  margin: 0.5rem;
+}
+.final-order {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sendOrderButton {
+  background: radial-gradient(
+    100% 2093.76% at 0% 50%,
+    #9396c3 0%,
+    #3a3e8f 100%
+  );
+  border-radius: 30px;
+  width: 90%;
+  margin: 0.5rem;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.sendOrderButton a {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.counter-items {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0.5rem;
+  color: #000000;
+}
+button {
+  cursor: pointer;
 }
 @media (max-width: 480px) {
   #welcome {
